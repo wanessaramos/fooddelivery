@@ -1,0 +1,228 @@
+{
+  "meat": [
+    {
+      "id": 0,
+      "name": "Bife acebolado"
+    },
+    {
+      "id": 1,
+      "name": "Galeto na brasa"
+    },
+    {
+      "id": 2,
+      "name": "Costela suína no forno"
+    },
+    {
+      "id": 3,
+      "name": "Galinha guisada"
+    }
+  ],
+  "rice": [
+    {
+      "id": 0,
+      "name": "Arroz branco"
+    },
+    {
+      "id": 1,
+      "name": "Arroz refogado"
+    }
+  ],
+  "bean": [
+    {
+      "id": 0,
+      "name": "Feijão caseiro"
+    },
+    {
+      "id": 1,
+      "name": "Feijão preto"
+    },
+    {
+      "id": 2,
+      "name": "Feijão tropeiro - feijão verde"
+    },
+    {
+      "id": 3,
+      "name": "Feijão tropeiro - feijão fradinho"
+    }
+  ],
+  "categories": [
+    {
+      "id": 0,
+      "title": "Café da Manhã"
+    },
+    {
+      "id": 1,
+      "title": "Almoço"
+    },
+    {
+      "id": 2,
+      "title": "Bebidas"
+    },
+    {
+      "id": 3,
+      "title": "Sobremesas"
+    },
+    {
+      "id": 4,
+      "title": "Tapiocas"
+    },
+    {
+      "id": 5,
+      "title": "Sanduíches"
+    },
+    {
+      "id": 6,
+      "title": "Quentinhas"
+    }
+  ],
+  "food": [
+    {
+      "id": 0,
+      "title": "Café da Manhã",
+      "data": [
+        {
+          "id": 0,
+          "name": "Inhame com galinha velha",
+          "image": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+          "description": "Inhame e galinha velha ao molho guisada",
+          "price": 23.75
+        },
+        {
+          "id": 1,
+          "name": "Cuscuz com atum",
+          "image": "https://images.unsplash.com/photo-1580751150184-e12c5beb8588?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
+          "description": "Cuscuz, tomate, pimentão, cebola molho e atum",
+          "price": 27.5
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Almoço",
+      "data": [
+        {
+          "id": 2,
+          "name": "Macarrão com almondegas",
+          "type": "a la carte",
+          "image": "https://images.unsplash.com/photo-1635264685671-739e75e73e0f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+          "description": "Massa de macarrão tipo espaguete, molho de tomate, mangericão e queijo muçarela ralado",
+          "price": 25
+        },
+        {
+          "id": 3,
+          "name": "Risoto de camarão",
+          "type": "a la carte",
+          "image": "https://images.unsplash.com/photo-1562967915-6ba607ff7d05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80",
+          "description": "Arroz ao alho e óleo, ervilha, tomate, cebola, pimentão, pimenta de cheiro e camarão no coco",
+          "price": 35
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Bebidas",
+      "data": [
+        {
+          "id": 4,
+          "name": "Coca-cola",
+          "image": "https://cdn.pixabay.com/photo/2020/04/08/08/09/cocacola-5016273_960_720.jpg",
+          "description": "Refrigerante coca-cola lata 300 ml",
+          "price": 7.75
+        },
+        {
+          "id": 5,
+          "name": "Suco de laranja",
+          "image": "https://cdn.pixabay.com/photo/2021/07/04/23/01/oranges-6387749_960_720.jpg",
+          "description": "Suco de laranja 100% natural",
+          "price": 8
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Sobremesas",
+      "data": [
+        {
+          "id": 6,
+          "name": "Mousse de chocolate",
+          "image": "https://images.unsplash.com/photo-1602513902411-40bc2cf5044a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
+          "description": "Mousse de chocolate com morangos frescos 150 ml",
+          "price": 8.5
+        },
+        {
+          "id": 7,
+          "name": "Pudim de doce de leite",
+          "image": "https://images.unsplash.com/photo-1605141345325-593a995497b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
+          "description": "Pudim de leite moça 100 ml",
+          "price": 6
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Tapiocas",
+      "data": [
+        {
+          "id": 8,
+          "name": "Tapioca tradicional de coco",
+          "image": "https://cdn.pixabay.com/photo/2017/07/04/19/28/tapioca-2472281_960_720.jpg",
+          "description": "Tapioca e coco natural",
+          "price": 10
+        },
+        {
+          "id": 9,
+          "name": "Tapioca de frango com catupiry",
+          "image": "https://cdn.pixabay.com/photo/2017/07/04/19/28/tapioca-2472281_960_720.jpg",
+          "description": "Tapioca, filé de peito de frango desfiado e quaijo catupiry",
+          "price": 12
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Sanduíches",
+      "data": [
+        {
+          "id": 10,
+          "name": "Bauru",
+          "image": "https://images.unsplash.com/photo-1586816001966-79b736744398?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGhhbWIlQzMlQkFyZ3VlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+          "description": "Pão francês com rosbife, fatias de tomate, picles, queijo derretido em banho-maria (muçarela), orégano e sal",
+          "price": 20.75
+        },
+        {
+          "id": 11,
+          "name": "Passaporte de frango",
+          "image": "https://images.unsplash.com/photo-1541214113241-21578d2d9b62?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+          "description": "Pão de seda, salsicha, milho-verde, ervilha, maionese, queijo-ralado e filé de peito de frango desfiado",
+          "price": 12
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quentinhas",
+      "data": [
+        {
+          "id": 12,
+          "name": "Quentinha com 1 opção de carne",
+          "type": "quentinha",
+          "option": 1,
+          "image": "https://images.unsplash.com/photo-1612871688842-bd1940055d44?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YWxtbyVDMyVBN298ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+          "description": "Acompanha feijão, arroz, macarrão, salada, purê e uma opção de carne",
+          "price": 17
+        },
+        {
+          "id": 13,
+          "name": "Quentinha com 2 opções de carne",
+          "type": "quentinha",
+          "option": 2,
+          "image": "https://images.unsplash.com/photo-1579536568809-62154a3bee07?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+          "description": "Acompanha feijão, arroz, macarrão, salada, purê e duas opções de carne",
+          "price": 20
+        }
+      ]
+    }
+  ],
+  "shoppingcart": [
+  ]
+}
