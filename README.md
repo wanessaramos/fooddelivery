@@ -34,5 +34,6 @@
 
 - [x] download https://github.com/wanessaramos/fooddelivery
 - [x] npm install
+- [x] json-server --watch server.json 
 - [x] npm start
 - [x] react-native run-android
